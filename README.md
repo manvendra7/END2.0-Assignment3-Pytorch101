@@ -30,11 +30,13 @@ Build a classifier model for both the task to predict the label for the image as
 We have used crosentropy loss for both the output image labels as well as addition as we treated this as a classification problem.
 
 Trained the model for 20 epochs passing and got the loss 0f 0.08
+
 ![img1](loss.png)
 
 #### Approach - 2
 
 With the Second Approach we applied a classification model for the prediction of image labels and a regression model to perform the addition of labels and random numbers.
+
 
 ![img1](imag3.PNG)
 
