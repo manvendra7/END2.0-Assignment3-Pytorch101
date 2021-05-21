@@ -14,6 +14,7 @@ The image data is represented as the tensor of (1,28,28) and the data2 is the te
 We have applied two methods to train our model to do the addition task -
 
 Build a classifier model for both the task to predict the label for the image as well as to predict the addition of the image and the random number.
+
 ![img1](imag2.PNG)
 
 **Passed the images through 8 convolution layers.**
