@@ -4,6 +4,7 @@
 We already have the MNIST dataset and their corresponding labels. We generated 60000 random numbers between 0 and 9, stored that into data2 and added the label of the image y to create the new output label y2 which is the addition of image class and the random number.
 
 The image data is represented as the tensor of (1,28,28) and the data2 is the tensor data representing the random number.
+
 ![img1](imag1.PNG)
 
 
@@ -28,13 +29,13 @@ Build a classifier model for both the task to predict the label for the image as
 We have used crosentropy loss for both the output image labels as well as addition as we treated this as a classification problem.
 
 Trained the model for 20 epochs passing and got the loss 0f 0.08
-![img1](imag3.PNG)
+![img1](loss.PNG)
 
 #### Approach - 2
 
 With the Second Approach we applied a classification model for the prediction of image labels and a regression model to perform the addition of labels and random numbers.
 
-![img1](imag4.PNG)
+![img1](imag3.PNG)
 
 **We passed the image through 2 convolution layers.**
 
@@ -48,4 +49,5 @@ L2 loss is also known as mean squared error (MSE). L2 loss, as one can easily in
 Loss for classification
 Cross-entropy
 
+![img1](imag4.PNG)
 The approach 2 did not work out well for us compared to the first approach.
