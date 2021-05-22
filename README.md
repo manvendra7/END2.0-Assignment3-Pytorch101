@@ -54,3 +54,9 @@ Cross-entropy
 
 ![img1](imag4.PNG)
 The approach 2 did not work out well for us compared to the first approach.
+
+**Team LanguagCorpus**
+* Manvendra Singh
+* Ayan Mondal
+* Siddharth
+* Aditya
